@@ -1,0 +1,288 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: "DM Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+	position: fixed;
+	left: 0;
+    right: 0;
+    z-index: 1;
+}
+.header-wrapper {
+	height: 50px;
+	text-align: center;
+	color: #fff;
+	background-color: #040e27;
+	border-bottom: 1px solid #fff;
+}
+
+.header-left {
+	width: 25%;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+	padding-left: 30px;
+	float: left;
+}
+
+.header-center {
+	width: 50%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+}
+
+.header-right{
+	width: 25%;
+	height: 50px;
+	text-align: right;
+	padding-right: 30px;
+	float: left;
+	line-height: 50px;
+}
+
+.header-right button {
+	color: #fff;
+	background-color: Transparent;
+	font-size: 16px;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	padding: 5px;
+}
+
+.header-center a {
+	padding: 10px;
+}
+
+.top-wrapper{
+	background-color: #040e27;
+	height: 450px;
+}
+
+.canvas {
+	height: 450px;
+	width: 50%;
+	padding-right: 75px;
+	padding-top: 125px;
+	text-align: right;
+	float: left;
+}
+
+.canvas img{
+	border-radius: 50%;
+	width: 250px;
+	height: auto;
+	padding: 10px;
+	border: 2px solid #fff;
+}
+
+
+.about {
+	height: 450px;
+	width: 50%;
+	float: left;
+	padding: 200px 50px;
+	color: #fff;
+}
+
+.about {
+	font-family: "Roboto Condensed", sans-serif;
+}
+
+.about h2 {
+	margin-top: 5px;
+	letter-spacing: 5px;
+}
+
+.main h1 {
+	font-family: "Roboto Condensed", sans-serif;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.main li {
+	padding-bottom: 20px;
+	padding-right: 50px;
+	text-align: right;
+	list-style: none;
+	font-weight: lighter;
+}
+
+.main ul {
+	height: auto;
+	padding-top: 20px; 
+	width: 40%;
+	color: #040e27;
+	float: left;
+}
+
+.level {
+	padding-top: 25px;
+	padding-left: 20px;
+	height: auto;
+	width: 60%;
+	float: left;
+}
+
+.bar {
+	height: 10px;
+	width: 500px;
+	margin-bottom: 35px;
+	background-color: #fff;
+	border: 1px solid #040e27;
+	border-radius: 5px;
+
+}
+
+.python {
+	height: 8px;
+	width: 85%;
+	background-color: #061740;
+}
+
+.javascript {
+	height: 8px;
+	width: 75%;
+	background-color: #061740;
+}
+
+.html-css {
+	height: 8px;
+	width: 85%;
+	background-color: #061740;
+}
+
+.postgresql {
+	height: 8px;
+	width: 85%;
+	background-color: #061740;
+}
+
+.mysql {
+	height: 8px;
+	width: 85%;
+	background-color: #061740;
+}
+
+.flask {
+	height: 8px;
+	width: 85%;
+	background-color: #061740;
+}
+
+.node {
+	height: 8px;
+	width: 85%;
+	background-color: #061740;
+}
+
+.react {
+	height: 8px;
+	width: 85%;
+	background-color: #061740;
+}
+
+.about-me {
+	padding: 30px 100px;
+	margin-bottom: 30px;
+	width: 100%;
+	height: auto;
+	color: #040e27;
+	font-family: "Roboto Condensed", sans-serif;
+}
+
+.about-me p {
+	font-size: 12;
+	letter-spacing: 3px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+
+form {
+	padding-top: 20px
+	height: auto;
+	text-align: center;
+}
+
+.form-title {
+	font-family: "Roboto Condensed", sans-serif;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+input {
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+	border-radius: 5px;
+	border: 1px solid #040e27;
+}
+
+label {
+	display: inline-block;
+	padding: 5px;
+	width: 100%;
+	text-align: center;
+}
+
+#message {
+	height: 100px;
+}
+
+#email {
+	height: 30px;
+	width: 200px;
+}
+
+#submit {
+	display: inline-block;
+	font-size: 18px;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	padding: 10px 15px;
+	color: #fff;
+	background-color: #040e27;
+}
+
+footer {
+	background-color: #040e27;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+/*css clearfix*/
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}

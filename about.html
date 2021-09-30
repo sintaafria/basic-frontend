@@ -1,66 +1,80 @@
 <!DOCTYPE html>
 <html>
+<meta charset="utf-8">
 <head>
 	<title>About Me</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-	<h1>My Portofolio</h1>
-	<h4>Biografi</h4>
-	<p>Halo saya Sinta Afria Ningsih. Saya adalah fresh graduate dari Jurusan fisika 
-		Fakultas MIPA Universitas Riau. Saya lahir dan dibesarkan di Kota Pekanbaru.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	<h4>Skills</h4>
-	<ul>
-		<li>Python</li>
-		<li>PostgreSql</li>
-		<li>Javascript</li>
-		<li>Mysql</li>
-		<li>C++</li>
-	</ul>
-	<h4>Other Skills</h4>
-	<ol>
-		<li>Flask</li>
-		<li>Node JS</li>
-		<li>React JS</li>
-		<li>Machine Learning</li>
-	</ol>
-	<h4>Education History</h4>
-	<table border="1px" cellspacing="0" cellpadding="2px">	
-		<tr>
-			<th>Pendidikan</th>
-			<th>Tahun</th>
-		</tr>
-		<tr>
-			<td>SD</td>
-			<td>2004-2010</td>
-		</tr>
-		<tr>
-			<td>SMP</td>
-			<td>2010-2013</td>
-		</tr>
-		<tr>
-			<td>SMA</td>
-			<td>2013-2016</td>
-		</tr>
-		<tr>
-			<td>Universitas<br>(Sarjana)</td>
-			<td>2016-2020</td>
-		</tr>
-	</table>
-	<h4>Contact Me</h4>
-	<form action="/">	
-		<label for="email">Email</label>
-		<input type="text" id="email" name="email"><br><br>	
-		<label for="message">Message</label>
-		<input type="text" id="message" name="message"><br><br>	
-		<button type="submit">send</button>
-	</form>
-	<hr>	
-	<p>Copyright &#169;2020 All right reserves</p>
+	<header>
+		<div class="header-wrapper cf">
+			<div class="header-left">
+				<h1>Sinta .</h1>
+			</div>
+			<div class="header-center">
+				<a href="#">Home</a>
+				<a href="#">Work</a>
+				<a href="#">Service</a>
+				<a href="#">Blog</a>
+				<a href="#">Contact</a>
+			</div>
+			<div class="header-right">
+				<button>Let's talk</button>
+			</div>	
+		</div>
+	</header>
+	<div class="top-wrapper cf">
+		<div class="canvas">
+			<img src="img/profil.jpg" alt="#">
+		</div>
+		<div class="about">
+			<h1>Sinta Afria Ningsih</h1>
+			<h2>Full Stack Developer<h2>
+		</div>
+	</div>
+	<div class="main">
+		<h1>My Skills</h1>
+		<div class="main1 cf">
+			<ul>
+				<li><h3>Python</h3></li>
+				<li><h3>Javascript</h3></li>
+				<li><h3>HTMl & CSS</h3></li>
+				<li><h3>PostgreSql</h3></li>
+				<li><h3>Mysql</h3></li>
+				<li><h3>Flask</h3></li>
+				<li><h3>Node JS</h3></li>
+				<li><h3>React JS</h3></li>
+			</ul>
+			<div class="level">
+				<div class="bar"><div class="python"></div></div>
+				<div class="bar"><div class="javascript"></div></div>
+				<div class="bar"><div class="html-css"></div></div>
+				<div class="bar"><div class="postgresql"></div></div>
+				<div class="bar"><div class="mysql"></div></div>
+				<div class="bar"><div class="flask"></div></div>
+				<div class="bar"><div class="node"></div></div>
+				<div class="bar"><div class="react"></div></div>
+		</div>
+		</div>
+		<div class="about-me">
+			<h1>About Me</h1>
+			<p>Helo my name Sinta Afria Ningsih. I am a frash graduate majoring in physics. I have work experience in proggramming language. I have exprience as reasearch assistant at Riau University photonic laboratory developing sortation system using python. I also joined fullstack developer course</p>
+		</div>
+		<form action="/">
+			<h1 class="form-title">Contact Me</h1>	
+			<b><label for="email">Email</label></b><br>
+			<input type="text" id="email" name="email"><br><br>	
+			<b><label for="message">Message</label></b><br>
+			<input type="text" id="message" name="message"><br><br>	
+			<button type="submit" id="submit">send</button>
+		</form>	
+	</div>
+	<footer>
+		<p>Copyright &#169;2020 All right reserves</p>
+	</footer>	
 </body>
 </html>
