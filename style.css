@@ -18,6 +18,11 @@ a {
   color: #fff;
 }
 
+a:hover {
+	color: #040e27;
+	background-color: #fff;
+}
+
 header {
 	position: fixed;
 	left: 0;
