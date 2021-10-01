@@ -154,13 +154,13 @@ header {
 
 .python {
 	height: 8px;
-	width: 85%;
+	width: 90%;
 	background-color: #061740;
 }
 
 .javascript {
 	height: 8px;
-	width: 75%;
+	width: 80%;
 	background-color: #061740;
 }
 
@@ -172,7 +172,7 @@ header {
 
 .postgresql {
 	height: 8px;
-	width: 85%;
+	width: 90%;
 	background-color: #061740;
 }
 
@@ -184,13 +184,13 @@ header {
 
 .flask {
 	height: 8px;
-	width: 85%;
+	width: 90%;
 	background-color: #061740;
 }
 
 .node {
 	height: 8px;
-	width: 85%;
+	width: 80%;
 	background-color: #061740;
 }
 
